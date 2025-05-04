@@ -1,0 +1,21 @@
+{
+  "name": "context7-cf-mcp-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "@upstash/context7-mcp": "^1.0.6",
+    "agents": "^0.0.76",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "wrangler": "^4.14.1"
+  }
+}
